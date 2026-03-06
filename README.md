@@ -6,6 +6,12 @@ A lightweight, inspectable router that maps user queries to retrieval modalities
 
 Recent multimodal systems often use a fixed retrieval path. In practice, query intent varies a lot: some questions need text evidence, others need image grounding or temporal video understanding. This repo focuses on a practical router layer that can be tested and replaced easily.
 
+## Industry context (2025-2026)
+
+- General-purpose VLMs are getting stronger, but retrieval orchestration is still a major bottleneck.
+- Router-first pipelines are becoming standard for latency and quality control in enterprise RAG stacks.
+- Explainable routing decisions are increasingly important for debugging and model governance.
+
 ## Features
 
 - Keyword-first routing with confidence score and traceable reasons.
