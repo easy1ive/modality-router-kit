@@ -1,0 +1,10 @@
+{"query":"What is the capital of France?", "label":"text"}
+{"query":"Describe the appearance of the red car in this image.", "label":"image"}
+{"query":"What happens in the final sequence of this video?", "label":"video"}
+{"query":"Compare the revenue values in this table.", "label":"table"}
+{"query":"Calculate 25 * 19.", "label":"no_rag"}
+{"query":"Summarize this research paper's core contribution.", "label":"text"}
+{"query":"What color is the bird in the picture?", "label":"image"}
+{"query":"Identify the exact moment the player falls in the clip.", "label":"video"}
+{"query":"Find the highest score in the csv rows.", "label":"table"}
+{"query":"Rewrite this sentence to be concise.", "label":"no_rag"}
