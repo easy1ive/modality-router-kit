@@ -108,3 +108,7 @@ class ModalityRouter:
 
         confidence = round(best_score / (best_score + 1.0), 4)
         return RouteDecision(label=best_label, confidence=confidence, reasons=reasons or ["weak_signal"])
+
+    def predict_many(self, queries: List[str]) -> List[RouteDecision]:
+        """Batch-friendly wrapper for lightweight routing jobs."""
+        return [self.predict(query) for query in queries]

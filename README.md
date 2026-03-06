@@ -28,6 +28,12 @@ router = ModalityRouter()
 print(router.predict("Describe the moment when the striker scores in the final video clip."))
 ```
 
+Run a tiny offline evaluation:
+
+```bash
+python scripts/run_eval.py --input examples/queries.jsonl --output outputs/eval_report.json
+```
+
 ## Routing schema
 
 - `no_rag`: direct reasoning, rewrite, translation, arithmetic.
