@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modality-router-kit"
+version = "0.1.0"
+description = "Lightweight modality-aware query router for multimodal RAG experiments"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "easy live" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["modality_router*"]
